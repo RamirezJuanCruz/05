@@ -1,0 +1,37 @@
+body {
+    color: #dfc800;
+    background-color: #75098b;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 450%;
+    text-transform: uppercase;
+    color: #dfc800;
+
+}
+
+p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 115%;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #430550;
+}
+
+#footer {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 110%;
+    font-style: italic;
+    text-align: center;
+}
+

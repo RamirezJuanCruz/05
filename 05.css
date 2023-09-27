@@ -1,0 +1,86 @@
+body {
+    color: #000000;
+    background-color: #d9d9d9;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 350%;
+    text-transform: uppercase;
+}
+
+#Películas {
+    text-align: center;
+    list-style: none;
+    /* elimina los puntitos (viñeta) */
+}
+
+#Películas li {
+    display: inline-block;
+    /* la lista la coloca horizontalmente */
+    padding: 10px;
+    text-align: center;
+}
+
+.boton {
+    text-decoration: none;
+    /* Eliminamos el subrayado del enlace */
+    color: #000000;
+    border: 2px solid rgb(102, 102, 102);
+    padding: 7px;
+}
+
+.boton:hover {
+    /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+form {
+    font-size: 200%;
+    font-weight: 600;
+}
+
+
+input {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2a2a2a;
+    font-weight: 60%;
+    font-size: 65%;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 300%;
+}
+
+p {
+    text-align: left;
+    font-weight: 425;
+    font-size: 115%;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 200%;
+}
+
+footer {
+    background-color: #adadad;
+}
+
+#footer {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 110%;
+    font-style: italic;
+    text-align: center;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
